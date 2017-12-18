@@ -1,4 +1,4 @@
-# Developing rails applications using docker
+# Development version of PostgreSQL container for use with Minikube and Helm.
 
 ## docker-postgresql-dev
 Postgresql image for development purposes, based on Alpine Linux. Feel free to modify this file in your real project
