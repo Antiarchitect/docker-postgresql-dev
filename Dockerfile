@@ -6,8 +6,6 @@ LABEL maintainer="Antiarchitect <voronkovaa@gmail.com>"
 # Conditional user change for Dev
 ARG gid
 ARG uid
-
-
 RUN [[ "x${uid}" = "x" ]] || deluser postgres
 #RUN [[ "x${uid}" = "x" ]] || delgroup postgres
 RUN [[ "x${gid}" = "x" ]] || addgroup -g ${gid} -S postgres
